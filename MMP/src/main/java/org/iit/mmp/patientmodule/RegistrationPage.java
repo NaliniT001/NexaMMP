@@ -19,6 +19,9 @@ public class RegistrationPage
 {
 	static HashMap<String,String> hMap = new HashMap<String,String>();
 	static Random rnd = new Random();
+	
+	// defining a single instance of driver.
+	
 	static WebDriver driver;
 	public static void main (String args[]) throws Exception
 	{
